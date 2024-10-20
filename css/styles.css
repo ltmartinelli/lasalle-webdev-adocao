@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+
+:root {
+  --my-color-bg-primary: #e8e8e8;
+  --my-color-bg-secondary: #60b0f1;
+  --my-color-bg-tertiary: #636363;
+  --my-color-bg-quaternary: #0caf1d;
+  --my-color-bg-notification: #f00;
+
+  --my-color-card-bg: #fff;
+  --my-color-card-border: #d9d9d9;
+
+  --my-color-btn-primary: #3483fa;
+  --my-color-btn-inverse: #fff;
+
+  --my-color-font-primary: #2b2b2b;
+  --my-color-font-secondary: #002c5f;
+  --my-color-font-tertiary: #fff;
+  --my-color-font-placeholder: #d9d9d9;
+
+  --my-color-error: #f33;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+html,
+body {
+  background-color: var(--my-color-bg-primary);
+}
+
+main {
+  padding: 0 20px;
+}
+
+/* HEADER STYLES */
+
+header {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--my-color-bg-secondary);
+}
+
+.header-logo {
+  font-family: 'Bagel Fat One';
+  padding: 0 1rem;
+  color: var(--my-color-font-tertiary);
+  font-size: 3rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+nav>a {
+  letter-spacing: .1rem;
+  font-family: 'Bagel Fat One';
+  color: var(--my-color-font-secondary);
+}
+
+nav>a:hover {
+  color: var(--my-color-bg-primary);
+}
+
+#mascot-logo{
+  width: 198px;
+}
+
+#logo{
+  display: flex;
+  align-items: center;
+}
