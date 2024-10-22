@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
   --my-color-bg-primary: #e8e8e8;
-  --my-color-bg-secondary: #60b0f1;
-  --my-color-bg-tertiary: #636363;
+  --my-color-bg-secondary: #e7c3c3;
+  --my-color-bg-tertiary: rgb(223, 149, 149);
   --my-color-bg-quaternary: #0caf1d;
   --my-color-bg-notification: #f00;
 
@@ -15,8 +14,9 @@
   --my-color-btn-inverse: #fff;
 
   --my-color-font-primary: #2b2b2b;
-  --my-color-font-secondary: #002c5f;
+  --my-color-font-secondary: #6b0000;
   --my-color-font-tertiary: #fff;
+  --my-color-font-quaternary: #c42626;
   --my-color-font-placeholder: #d9d9d9;
 
   --my-color-error: #f33;
@@ -26,7 +26,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans";
+  font-family: "Roboto";
 }
 
 a,
@@ -47,42 +47,47 @@ main {
 /* HEADER STYLES */
 
 header {
-  padding: 2rem;
+  padding: 2rem 5rem;
   display: flex;
+  gap: 1rem;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   background-color: var(--my-color-bg-secondary);
 }
 
 .header-logo {
-  font-family: 'Bagel Fat One';
+  font-family: 'Chicle';
+  text-shadow: 1px 1px 3px var(--my-color-bg-tertiary);
   padding: 0 1rem;
-  color: var(--my-color-font-tertiary);
-  font-size: 3rem;
+  margin: .5rem;
+  color: var(--my-color-font-quaternary);
+  font-size: 4rem;
 }
 
 nav {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 nav>a {
   letter-spacing: .1rem;
-  font-family: 'Bagel Fat One';
+  font-family: 'Chicle';
   color: var(--my-color-font-secondary);
 }
 
 nav>a:hover {
-  color: var(--my-color-bg-primary);
+  color: var(--my-color-font-quaternary);
 }
 
 #mascot-logo{
-  width: 198px;
+  width: 160px;
 }
 
 #logo{
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
