@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 #mascot-intro{
     width: 512px;
+}
+
+#conteudo-intro{
+    display: flex;
+    padding:2rem;
+    gap:3rem;
+    font-family:'Roboto'
+}
+
+#img-intro{
+    border-radius: 1rem;
+}
+
+#texto-intro{
+    text-align: justify;
+}
+
+#texto-intro>h1{
+    margin-bottom: 1rem;
+}
+
+#texto-intro>ul{
+    padding-left: 2rem;
+    margin: 1rem 0;
+}
+
+button{
+    margin: 1rem 0;
+    border: none;
+    background-color: var(--my-color-bg-tertiary);
+    color: white;
+    width: 360px;
+    height:60px;
+    border-radius: 15px;
+    font-family: 'Chicle';
+    font-size: 24px;
+    margin:auto;
+    display: block;
+    letter-spacing: .1rem;
 }
