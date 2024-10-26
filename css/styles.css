@@ -96,5 +96,6 @@ nav>a:hover {
 /*--- GENERAL STYLES---*/
 
 .container{
+  padding:5rem;
   margin:auto;
 }

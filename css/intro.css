@@ -14,10 +14,12 @@
 
 #img-intro{
     border-radius: 1rem;
+    width: 30%;
 }
 
 #texto-intro{
     text-align: justify;
+    width: 60%;
 }
 
 #texto-intro>h1{
