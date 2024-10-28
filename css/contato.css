@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.main-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-top: 0;
+}
+
+.main-content p {
+    color: var(--my-color-font-label);
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: var(--my-color-font-label);
+}
+
+.contact-info a {
+    color: var(--my-color-font-quaternary);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Botão de ação */
+.action-button {
+    display: inline-block;
+    background-color: var(--my-color-font-quaternary);
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.action-button:hover {
+    background-color: #a82828;
+}

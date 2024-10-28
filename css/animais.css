@@ -3,13 +3,15 @@
 #animais{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap:1rem;
+    gap:3rem;
 }
 
 .card-animal {
     width: 360px;
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .img-animal {

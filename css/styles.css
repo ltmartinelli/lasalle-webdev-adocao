@@ -18,7 +18,7 @@
   --my-color-font-tertiary: #fff;
   --my-color-font-quaternary: #c42626;
   --my-color-font-placeholder: #d9d9d9;
-
+  --my-color-font-label: #555555;
   --my-color-error: #f33;
 }
 
@@ -43,6 +43,10 @@ body {
 
 main {
   padding: 0 20px;
+}
+
+li {
+  margin: 1.3rem 0;
 }
 
 /* HEADER STYLES */
