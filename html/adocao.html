@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <title>Formulário de Adoção</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img id="mascot-logo" src="../assets/mascot.png" alt="mascote">
+            <h1 class="header-logo">ADOCÃO</h1>
+        </div>
+        <nav id="header-nav">
+            <a href="index.html">HOME</a>
+            <a href="animais.html">ANIMAIS</a>
+            <a href="">ADOTE</a>
+            <a href="contato.html">CONTATO</a>
+            <a href="">DOAÇÕES</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Formulario" class="container">
+            <form action="submit" method="post">
+
+                <div class="form-input">
+                    <label for="nome-pessoa">Nome</label>
+                    <input type="text" name="nome-pessoa" id="nome-pessoa">
+                </div>
+                <div class="form-input">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" pattern="[0-9]{11}">
+                </div>
+                <div class="form-input">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-input">
+                    <label for="animal-escolhido">Qual amigo você vai adotar?</label>
+
+                    <select name="animal-escolhido" id="animal-escolhido">
+                        <option value="cbom">C Bom</option>
+                        <option value="trembolinha">Trembolinha</option>
+                        <option value="testosterono">Testosterono</option>
+                        <option value="suquinho">Suquinho</option>
+                        <option value="fibradinho">Fibradinho</option>
+                        <option value="creatina">Creatina</option>
+                    </select>
+                </div>
+
+                <div class="form-input">
+                    <label for="data">Que dia você vem aqui?</label>
+                    <input type="date" name="data" id="data">
+                </div>
+
+                <div>
+                    <label for="horario">Escolha um horário para a visita:</label><br>
+
+                    <input type="radio" id="horario1" value="9h-12h" name="horario">
+                    <label for="horario1">9h - 12h</label><br>
+
+                    <input type="radio" id="horario2" value="13h-15h" name="horario">
+                    <label for="horario2">13h - 15h</label><br>
+
+                    <input type="radio" id="horario3" value="15h-17h" name="horario">
+                    <label for="horario3">15h - 17h</label><br>
+                </div>
+
+                <button class="form-btn" type="submit">Enviar</button>
+                <button class="form-btn" type="reset">Limpar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    gap: .2rem;
+}
+
+input{
+    border-radius: .2rem;
+    border: 1px solid black;
+    height: 30px;
+    padding: .5rem;
+}
+
+input:focus{
+    outline: 1px solid var(--my-color-bg-tertiary);
+}
+
+label{
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 360px;
+}
+
+.form-btn {
+    padding: 10px 20px;
+    background-color: var(--my-color-bg-quaternary);
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    width: 180px;
+}
+
+.form-btn:hover {
+    background-color: var(--my-color-bg-tertiary); 
+}
