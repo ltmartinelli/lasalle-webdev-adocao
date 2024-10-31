@@ -29,20 +29,20 @@
 
                 <div class="form-input">
                     <label for="nome-pessoa">Nome</label>
-                    <input type="text" name="nome-pessoa" id="nome-pessoa">
+                    <input type="text" name="nome-pessoa" id="nome-pessoa" placeholder="Digite seu nome">
                 </div>
                 <div class="form-input">
                     <label for="telefone">Telefone</label>
-                    <input type="tel" name="telefone" id="telefone" pattern="[0-9]{11}">
+                    <input type="tel" name="telefone" id="telefone" pattern="[0-9]{11}" placeholder="(ex: 11987654321)">
                 </div>
                 <div class="form-input">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
                 </div>
                 <div class="form-input">
                     <label for="animal-escolhido">Qual amigo você vai adotar?</label>
-
                     <select name="animal-escolhido" id="animal-escolhido">
+                        <option value="">Selecione um animal</option>
                         <option value="cbom">C Bom</option>
                         <option value="trembolinha">Trembolinha</option>
                         <option value="testosterono">Testosterono</option>
@@ -54,20 +54,28 @@
 
                 <div class="form-input">
                     <label for="data">Que dia você vem aqui?</label>
-                    <input type="date" name="data" id="data">
+                    <input type="date" name="data" id="data" placeholder="Selecione uma data">
                 </div>
 
                 <div>
                     <label for="horario">Escolha um horário para a visita:</label><br>
 
-                    <input type="radio" id="horario1" value="9h-12h" name="horario">
-                    <label for="horario1">9h - 12h</label><br>
+                    <div class="radio-container">
+                        <input type="radio" id="horario1" value="9h-12h" name="horario">
+                        <label for="horario1">9h - 12h</label><br>
+                    </div>
 
-                    <input type="radio" id="horario2" value="13h-15h" name="horario">
-                    <label for="horario2">13h - 15h</label><br>
+                    <div class="radio-container">
+                        <input type="radio" id="horario2" value="13h-15h" name="horario">
+                        <label for="horario2">13h - 15h</label><br>
+                    </div>
 
-                    <input type="radio" id="horario3" value="15h-17h" name="horario">
-                    <label for="horario3">15h - 17h</label><br>
+                    <div class="radio-container">
+                        <input type="radio" id="horario3" value="15h-17h" name="horario">
+                        <label for="horario3">15h - 17h</label>
+                    </div>
+
+                    <br>
                 </div>
 
                 <button class="form-btn" type="submit">Enviar</button>
