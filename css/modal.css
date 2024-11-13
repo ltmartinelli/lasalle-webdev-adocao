@@ -1,0 +1,36 @@
+#modal{
+    width: 480px;
+    height: 240px;
+    padding: 1rem;
+    gap:1rem;
+    background-color: var(--my-color-bg-secondary);
+    border: 1px solid var(--my-color-bg-quaternary);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: FIXED;
+    top: 40%;
+    left: 40%;
+
+}
+
+#modal-bg{
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+}
+
+.modal-title{
+
+}
+
+.modal-text{
+text-align: center;
+}
