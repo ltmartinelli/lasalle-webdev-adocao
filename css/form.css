@@ -7,6 +7,10 @@
     gap: .3rem;
 }
 
+#animal-escolhido{
+    height: 3rem;
+}
+
 input {
     border-radius: .2rem;
     border: 1px solid black;
