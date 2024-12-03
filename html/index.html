@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+<!-- 
+As páginas seguem o mesmo padrão hierárquico e semântico no body:
+- header reutilizado em todas as páginas
+- main com sections internas
+
+Temos também um arquivo css geral, com estilos utilizados por
+todo o projeto, e arquivos css específicos, com estilos
+usados apenas um uma página. No head, referenciamos a
+stylesheet geral e a específica
+
+Adotamos a seguinte organização de pastas:
+- html
+- css
+- javascript
+-->
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +26,15 @@
     <title>Adocão</title>
 </head>
 
-
 <body>
+    <!-- Header Principal -->
     <header>
+        <!--Logo-->
         <div id="logo">
             <img id="mascot-logo" src="../assets/mascot.png" alt="mascote">
             <h1 class="header-logo">ADOCÃO</h1>
         </div>
+        <!-- Menu de Navegação -->
         <nav id="header-nav">
             <a href="index.html">HOME</a>
             <a href="animais.html">ANIMAIS</a>
@@ -26,6 +45,7 @@
         </nav>
     </header>
     <main>
+        <!-- Seção de introdução -->
         <section id="intro" class="container">
             <div id="conteudo-intro">
                 <div id="texto-intro">
